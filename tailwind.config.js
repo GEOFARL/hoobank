@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,jsx}'],
@@ -20,6 +22,10 @@ export default {
       md: '1060px',
       lg: '1200px',
       xl: '1700px',
+    },
+    brightness: {
+      350: '3.5',
+      ...defaultTheme.brightness,
     },
   },
   plugins: [],
