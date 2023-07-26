@@ -20,17 +20,26 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold text-[52px] ss:text-[72px] text-white">
+          <h1 className="flex-1 font-poppins font-semibold text-[52px] ss:text-[72px] text-white leading-[75px] ss:leading-[100px]">
             The Next <br className="hidden sm:block" />
             <span className="text-gradient">Generation </span>
-            <br className="hidden sm:block leading-[75px] ss:leading-[100px]" />
-            Payment Method
+            <br className="hidden sm:block" />
           </h1>
 
           <div className="hidden ss:flex md:mr-4">
             <GetStarted />
           </div>
         </div>
+
+        <h1 className="font-poppins font-semibold text-[52px] ss:text-[68px] text-white leading-[75px] ss:leading-[100px] w-full">
+          Payment Method
+        </h1>
+
+        <p className={`${styles.paragraph} max-w-[470px]`}>
+          Our team of experts uses a methodology to identify the credit cards
+          most likely to fit your needs. We examine annual percentage rates,
+          annual fees.
+        </p>
       </div>
     </section>
   );
