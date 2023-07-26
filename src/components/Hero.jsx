@@ -1,5 +1,6 @@
 import styles from '../styles';
 import { discount, robot } from '../assets';
+import { GetStarted } from './index.js';
 
 const Hero = () => {
   return (
@@ -16,6 +17,19 @@ const Hero = () => {
             <span className="text-white">20%</span> Discount For{' '}
             <span className="text-white">1 Month</span> Account
           </p>
+        </div>
+
+        <div className="flex flex-row justify-between items-center w-full">
+          <h1 className="flex-1 font-poppins font-semibold text-[52px] ss:text-[72px] text-white">
+            The Next <br className="hidden sm:block" />
+            <span className="text-gradient">Generation </span>
+            <br className="hidden sm:block leading-[75px] ss:leading-[100px]" />
+            Payment Method
+          </h1>
+
+          <div className="hidden ss:flex md:mr-4">
+            <GetStarted />
+          </div>
         </div>
       </div>
     </section>

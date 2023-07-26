@@ -7,6 +7,7 @@ import CTA from './CTA';
 import Stats from './Stats';
 import Footer from './Footer';
 import Testimonials from './Testimonials';
+import GetStarted from './GetStarted';
 import Hero from './Hero';
 
 export {
@@ -20,4 +21,5 @@ export {
   Footer,
   Testimonials,
   Hero,
+  GetStarted,
 };
